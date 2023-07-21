@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Portifólio - Larissa Nunes</title>
+    <link rel="shortcut icon" href="./assets/logolari.png">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="navegacao">
+            <img class="logo-lari" src="./assets/logolari.png" alt="logo-lari">
+
+            <div class="links">
+                <div>
+                    <input type="checkbox" class="checkbox" id="chk">
+                    <label for="chk" class="label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+
+                <a class="nav-link" href="#inicio">Início</a>
+                <a class="nav-link" href="#about">Sobre</a>
+                <a class="nav-link" href="#project">Projetos</a>
+                <a class="nav-link" href="#contact">Contatos</a>
+            </div>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <div>
+                    <h1>Olá, eu sou a <br>
+                        Larissa Nunes</h1>
+                    <span>Desenvolvedora Front-End</span>
+                    <br>
+                    <a class="cv" href="./assets/Currículo Larissa - Front-End.pdf">
+                        <button>Download CV</button>
+                    </a> 
+                    <!-- -->
+                    <a class="contato" href="mailto:larissnunes924@gmail.com" target="_blank">
+                        <button>Entrar em contato</button>
+                    </a>
+                </div>
+
+                <div>
+                    <img class="programation" src="./assets/foto-larissan.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container-title">
+                <h2 class="title-about">SOBRE MIM</h2>
+            </div>
+            <div class="container-about">
+                <div class="container-text">
+                    <h2 class="bem-vindos">Sejam bem-vindos ao meu portfólio!</h2>
+                    <p class="text-about">Olá, eu me chamo Larissa e tenho 19 anos. Iniciei minha carreira na programação no inicio de 2022 e hoje em dia
+                        venho me aprimorando ainda mais no desenvolvimento front-end.
+                    </p>
+                    <p class="text-about">Atualmente, estou cursando Análise e Desenvolvimento de Sistema na faculdade Integrado e estou no 4º período.
+                       Tenho conhecimento em HTML, CSS, JavaScript e ReactJs, além de trabalhar com responsividade nos meus projetos e tornarem ainda mais flexíveis.</p>
+                    <p class="text-about"> Estou animada para aprender cada vez mais sobre programação e colocar em
+                        prática tudo o que
+                        aprendi. Espero poder compartilhar meus projetos e colaborar em projetos futuros.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hab">
+            <h2>HABILIDADES</h2>
+        </div>
+        <section id="skills">
+                <div class="container">
+                        <div class="box">
+                            <p>HTML5</p>
+                            <img src="assets/html.svg" alt="html">
+                        </div>
+                        <div class="box">
+                            <p>CSS3</p>
+                            <img src="assets/css.svg" alt="css">
+                        </div>
+                        <div class="box">
+                            <p>JavaScript</p>
+                            <img src="assets/javascrip.svg" alt="javascript">
+                        </div>
+                        <div class="box">
+                            <p>ReactJs</p>
+                            <img src="assets/react.svg" alt="react">
+                        </div>
+                        <div class="box">
+                            <p>Material UI</p>
+                            <img src="assets/materialui.svg" alt="material ui">
+                        </div>
+                        <div class="box">
+                            <p>Figma</p>
+                            <img src="assets/figma.svg" alt="figma">
+                        </div>
+                </div>
+        </section>
+        
+
+        <section id="project">
+            <div class="container-title">
+                <h2 class="title-project">PROJETOS</h2>
+            </div>
+
+            <div class="container-project">
+                <!-- Card 1  -->
+                <div class="cards">
+                    <!-- Card img -->
+                    <div class="card-img">
+                        <img src="./assets/pokemon.PNG" alt="Projeto Pokémon">
+                    </div>
+                    <!-- Card img -->
+
+                    <!-- Card texto -->
+                    <div class="card-text">
+                        <h1 class="title-card">Pokémon</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs, ChakraUI, React-Router</p>
+                        <a href="https://github.com/lari-nunes/projeto-pokemon" target="_blank">
+                          <button>Visualizar código</button>
+                        </a>
+                        <a href="https://pokemon-ten-livid.vercel.app" target="_blank">
+                          <button>Acessar projeto</button>
+                        </a>
+                      </div>
+                    <!-- Card texto -->
+                </div>
+                <!-- Card 1 -->
+
+                <!-- Card 2 -->
+                <div class="cards">
+                    <!-- Card img -->
+                    <div class="card-img">
+                        <img src="./assets/buscadorCEP.PNG" alt="buscadorCEP">
+                    </div>
+                    <!-- Card img -->
+
+                    <!-- Card texto 2 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Buscador de CEP</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs</p>
+                        <a href="https://github.com/lari-nunes/buscadorCEP-react" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>
+                        <a href="https://buscador-cep-react-ten.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>
+                    </div>
+                    <!-- Card texto 2 -->
+                </div>
+                <!-- Card 2 -->
+
+                <!-- Card 2 -->
+                <div class="cards">
+                    <!-- Card img 2 -->
+                    <div class="card-img">
+                        <img src="./assets/moviesAPI.PNG" alt="Movies API">
+                    </div>
+                    <!-- Card img 2 -->
+
+                    <!-- Card texto 2 -->
+                    <div class="card-text">
+                        <h1 class="title-card">The Movie DB</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs, Styled-Components, React-Router</p>
+                        <a href="https://github.com/lari-nunes/movies-api" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>
+                        <a href="https://movies-api-snowy.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>       
+                    </div>
+                    <!-- Card texto 2 -->
+                </div>
+                <!-- Card 2 -->
+
+                <!-- Card 4 -->
+                <div class="cards">
+                    <!-- Card img 4 -->
+                    <div class="card-img">
+                        <img src="./assets/quiz.PNG" alt="Quiz">
+                    </div>
+                    <!-- Card img 4 -->
+
+                    <!-- Card texto 4 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Quiz de programação</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs</p>
+                        <a href="https://github.com/lari-nunes/quiz-react" target="_blank">
+                            <button>Visualizar código</button>
+                        <a href="https://quiz-react-smoky.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> </a>
+                        </a>
+                    </div>
+                    <!-- Card texto 4 -->
+                </div>
+                <!-- Card 4 -->
+                
+                <!-- Card 5 -->
+                <div class="cards">
+                    <!-- Card img 5 -->
+                    <div class="card-img">
+                        <img src="./assets/todolist.PNG" alt="todo list">
+                    </div>
+                    <!-- Card img 5 -->
+
+                    <!-- Card texto 5 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Todo List</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs, Material UI</p>
+                        <a href="https://github.com/lari-nunes/quiz-react" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>    
+                        <a href="https://quiz-react-smoky.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>
+                    </div>
+                    <!-- Card texto 5 -->
+                </div>
+
+                <!-- Card 5 -->
+
+                <!-- Card 6 -->
+                <div class="cards">
+                    <!-- Card img 6 -->
+                    <div class="card-img">
+                        <img src="./assets/starbucks-page.PNG" alt="Starbucks">
+                    </div>
+                    <!-- Card img 6 -->
+
+                    <!-- Card texto 6 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Starbucks Page</h1>
+                        <p class="text-card">Tecnologias utilizadas: HTML, CSS, JavaScript</p>
+                        <a href="https://github.com/lari-nunes/starbucks-page" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>
+                        <a href="https://starbucks-two-psi.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>    
+                    </div>
+                    <!-- Card texto 6 -->
+                </div>
+                <!-- Card 6 -->
+
+                <!-- Card 7 -->
+                <div class="cards">
+                    <!-- Card img 7 -->
+                    <div class="card-img">
+                        <img src="./assets/nike-page.PNG" alt="Nike">
+                    </div>
+                    <!-- Card img 7 -->
+
+                    <!-- Card texto 7 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Nike Page</h1>
+                        <p class="text-card">Tecnologias utilizadas: ReactJs</p>
+                        <a href="https://github.com/lari-nunes/landingpage-nike" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>
+                        <a href="https://nike-zeta-flame.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>
+                    </div>
+                    <!-- Card texto 7 -->
+                </div>
+                <!-- Card 7 -->
+
+                <!-- Card 8-->
+                <div class="cards">
+                    <!-- Card img 8 -->
+                    <div class="card-img">
+                        <img src="./assets/conversor-moeda.PNG" alt="Conversor de Moeda">
+                    </div>
+                    <!-- Card img 8 -->
+
+                    <!-- Card texto 8 -->
+                    <div class="card-text">
+                        <h1 class="title-card">Conversor de Moeda</h1>
+                        <p class="text-card">Tecnologias utilizadas: HTML, CSS e JavaScript</p>
+                        <a href="https://github.com/lari-nunes/conversor-de-moeda" target="_blank">
+                            <button>Visualizar código</button>
+                        </a>    
+                        <a href="https://conversor-de-moeda.vercel.app" target="_blank">
+                            <button>Acessar projeto</button> 
+                        </a>
+                    </div>
+                    <!-- Card texto 8 -->
+                </div>
+                <!-- Card 8 -->
+
+                
+            </div>
+
+        </section>
+
+        <div id="btnTop">
+            <i class="arrow up"> </i>
+        </div>
+
+        <section id="contact">
+            <div class="container-title">
+                <h2 class="title-contact">CONTATOS</h2>
+            </div>
+
+            <div class="container-icon">
+                <div class="icon">
+                    <a class="contact-link" href="mailto:mikaasampaio6@gmail.com" target="_blank">
+
+                        <div class="logo">
+                            <img class="img-logo" src="./assets/mail.svg" alt="email">
+                            <h3 class="subtitle-contact">Email</h3>
+                            <p class="text-contact">larissnunes924@gmail.com</p>
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="icon">
+                    <a class="contact-link" href="https://www.linkedin.com/in/9larissanunes/" target="_blank">
+                        <div class="logo">
+                            <img class="img-logo" src="./assets/linkedin.svg" alt="linkedin-logo">
+                            <h3 class="subtitle-contact">LinkedIn</h3>
+                            <p class="text-contact">Larissa Nunes</p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="icon">
+                    <a class="contact-link" href="https://github.com/lari-nunes" target="_blank">
+                        <div class="logo">
+                            <img class="img-logo" src="./assets/github.svg" alt="github-logo">
+                            <h3 class="subtitle-contact">GitHub</h3>
+                            <p class="text-contact">@lari-nunes</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
