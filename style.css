@@ -807,11 +807,11 @@ button:hover {
     }
 
     .container div h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .container div span {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .cards {
@@ -820,6 +820,57 @@ button:hover {
 
     .cards:hover {
         transform: none;
+    }
+
+    .programation {
+        width: 280px;
+    }
+
+    .container-icon {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .icon {
+        margin: 0;
+        width: 85%;
+        border: none;
+        box-shadow: 2px 2p 10px 2px #2A2953;
+    }    
+    .icon .logo img{
+        background-color: #1f1d1d;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #inicio {
+        padding: 0;
+        padding-top: 20%;
+        height: 90vh;
+    }
+
+    .container div h1 {
+        font-size: 25px;
+    }
+
+    .container div span {
+        font-size: 20px;
+    }
+
+    .cards {
+        width: 95%;
+    }
+
+    .cards:hover {
+        transform: none;
+    }
+
+    .programation {
+        width: 280px;
     }
 
     .container-icon {
