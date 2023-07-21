@@ -289,7 +289,6 @@ header::after {
     display: flex;
     align-items: center;
     gap: 100px;
-    animation: slideInFromLeft 1s ease-in-out;
 }
 
 h1 {
@@ -807,7 +806,7 @@ button:hover {
     }
 
     .container div h1 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .container div span {
@@ -823,7 +822,15 @@ button:hover {
     }
 
     .programation {
-        width: 280px;
+        width: 250px;
+    }
+
+    .text-about{
+        font-size: 20px;
+    }
+
+    .bem-vindos{
+        font-size: 20px;
     }
 
     .container-icon {
@@ -854,11 +861,11 @@ button:hover {
     }
 
     .container div h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .container div span {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .cards {
@@ -870,7 +877,7 @@ button:hover {
     }
 
     .programation {
-        width: 280px;
+        width: 230px;
     }
 
     .container-icon {
